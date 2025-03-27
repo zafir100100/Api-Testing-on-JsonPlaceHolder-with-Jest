@@ -2,50 +2,19 @@
 
 This project provides unit tests for API endpoints using **Jest**, **Axios**, and **Faker**. It includes test suites for both **PostController** and **UserController**, which interact with a public API (https://jsonplaceholder.typicode.com).
 
-## Features
-- Full **CRUD lifecycle** testing for **posts** and **users**
-- Uses **Jest** for testing
-- Uses **Axios** for API requests
-- Uses **Faker** for generating dynamic test data
-- Generates **HTML test reports**
+## Video
 
-## Installation
+https://github.com/user-attachments/assets/28fcd228-3b74-4824-85a3-bd892fabf8d4
+
+## How to run this project
 ```sh
-# Clone the repository
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+# Clone this project
 
 # Install dependencies
 npm install
-```
 
-## Project Structure
-```
-📂 project-root
- ├── 📂 controllers
- │   ├── PostController.js
- │   ├── UserController.js
- │
- ├── 📂 test
- │   ├── Post.test.js
- │   ├── User.test.js
- │
- ├── package.json
- ├── README.md
-```
-## Install Dependencies
-```sh
-npm install
-```
-
-## Run Tests
-```sh
+# Run tests:
 npm test
-```
-
-## Generate HTML Test Report
-```sh
-npx jest --reporters=default --reporters=jest-html-reporter
 ```
 
 ## Test Scenarios
@@ -72,8 +41,11 @@ npx jest --reporters=default --reporters=jest-html-reporter
   "jest-html-reporter": "^4.1.0"
 }
 ```
+
+## Generate HTML Test Report
+```sh
+npx jest --reporters=default --reporters=jest-html-reporter
+```
+
 ## Screenshot (Report)
 ![image](https://github.com/user-attachments/assets/69800fba-605a-4088-9f9d-28a917e3fe5d)
-
-## License
-This project is licensed under the **MIT License**.
