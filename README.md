@@ -1,4 +1,4 @@
-# Api Testing on JsonPlaceHolder with Jest 
+# Api Testing on JsonPlaceHolder with Jest
 
 This project provides unit tests for API endpoints using **Jest**, **Axios**, and **Faker**. It includes test suites for both **PostController** and **UserController**, which interact with a public API (https://jsonplaceholder.typicode.com).
 
