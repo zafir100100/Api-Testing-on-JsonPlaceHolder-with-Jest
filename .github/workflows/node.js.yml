@@ -28,15 +28,4 @@ jobs:
         run: npm ci
 
       - name: Run Jest Tests
-        run: npm test
-        continue-on-error: true
-
-      - name: Ensure Reports Directory Exists
-        run: mkdir -p reports
-
-      - name: Upload Jest HTML Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: jest-html-report
-          path: reports/test-report.html
+        run: npm run test
