@@ -1,13 +1,13 @@
 {
   "name": "test1",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
+  "description": "API Testing on JSONPlaceholder with Jest",
+  "license": "MIT",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "devDependencies": {
     "@faker-js/faker": "^9.6.0",
@@ -21,8 +21,11 @@
       [
         "jest-html-reporter",
         {
-          "pageTitle": "Test Report",
-          "outputPath": "reports/test-report.html"
+          "outputPath": "./reports/test-report.html",
+          "pageTitle": "API Testing Report - JSONPlaceholder with Jest",
+          "dateFormat": "mmmm d, yyyy h:MM:ss TT",
+          "includeFailureMsg": true,
+          "includeConsoleLog": true
         }
       ]
     ]
