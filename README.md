@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/28fcd228-3b74-4824-85a3-bd892fabf8d4
 npm install
 
 # Run tests:
-npm test
+npm run test
 ```
 
 ## Test Scenarios
@@ -42,10 +42,7 @@ npm test
 }
 ```
 
-## Generate HTML Test Report
-```sh
-npx jest --reporters=default --reporters=jest-html-reporter
-```
-
 ## Screenshot (Report)
-![image](https://github.com/user-attachments/assets/69800fba-605a-4088-9f9d-28a917e3fe5d)
+
+![image](https://github.com/user-attachments/assets/7d66a077-0197-42d6-bcf2-46d06f167377)
+
