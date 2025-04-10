@@ -42,7 +42,7 @@ npm run test
 }
 ```
 
-## Screenshot (Report)
+## Screenshot (Jest HTML Report)
 
 ![image](https://github.com/user-attachments/assets/7d66a077-0197-42d6-bcf2-46d06f167377)
 
